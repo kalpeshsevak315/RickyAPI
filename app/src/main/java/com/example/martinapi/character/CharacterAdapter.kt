@@ -18,10 +18,6 @@ class CharacterAdapter(private val onClickListener: OnClickListener) : ListAdapt
     }
 
 
-    /**
-     * View Holder implementation using view binding
-     * NO findViewById()
-     */
     class MyViewHolder(val itemBinding: ItemCharacterBinding) : RecyclerView.ViewHolder(itemBinding.root)
 
 
